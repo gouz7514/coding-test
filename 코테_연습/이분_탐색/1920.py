@@ -1,4 +1,5 @@
 # 수 찾기
+# 실버 4
 # https://www.acmicpc.net/problem/1920
 import sys
 

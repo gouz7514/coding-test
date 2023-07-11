@@ -1,4 +1,5 @@
 # CD
+# 실버 5
 # https://www.acmicpc.net/problem/4158
 # 나의 풀이
 # 0 0 을 입력받는 조건을 해결하지 못함, 시간 초과
