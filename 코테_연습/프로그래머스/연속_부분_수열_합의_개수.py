@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/131701
 # 나의 풀이
 def solution(elements):
     num_dict = dict()
@@ -15,6 +16,7 @@ elements = [7, 9, 1, 1, 4]
 print(solution(elements))
 
 # 다른 사람의 풀이
+# 이 풀이처럼 set을 쓰면 훨씬 편하게 풀 수 있다
 def solution(elements):
     ll = len(elements)
     res = set()

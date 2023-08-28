@@ -1,3 +1,5 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/131127
+# 나의 풀이
 def solution(want, number, discount):
     answer = 0
     dic = dict()
