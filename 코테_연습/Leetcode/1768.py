@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/merge-strings-alternately
-# easey
+# easy
 # 나의 풀이
 def mergeAlternxately(word1, word2):
   result = ''
