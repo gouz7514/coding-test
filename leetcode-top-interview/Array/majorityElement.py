@@ -2,6 +2,8 @@
 # Given an array nums of size n, return the majority element
 # THe majority element is the element that appears more than n/2 times
 # You may assume that the majority element always exist in the array
+# Hint : how you could "incrase" or "decrease" a count as you go
+# Boyer-Moore majority vote algorithm
 class Solution(object):
     def majorityElement(self, nums):
         candidate, count = 0, 0
