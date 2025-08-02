@@ -62,6 +62,24 @@ class Solution(object):
                     c -= 1
         return ('').join(a)
 
+# BY gpt
+class Solution(object):
+    def convert(self, s, numRows):
+        if numRows == 1 or numRows >= len(s):
+            return s
+        rows = [[] for _ in range(numRows)]
+        curRow, step = 0, 1
+
+        for ch in s:
+            rows[curRow].append(ch)
+            if curRow == 0:
+                step = 1
+            elif curRow == numRows-1:
+                step = -1
+            curRow += step
+            
+        return ''.join([''.join(row) for row in rows])
+
 # I want more
 # Avoid repeated string concatenation
 # Use lists to build strings, then join at the end
