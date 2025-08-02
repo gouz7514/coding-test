@@ -67,6 +67,7 @@ class Solution(object):
     def convert(self, s, numRows):
         if numRows == 1 or numRows >= len(s):
             return s
+        
         rows = [[] for _ in range(numRows)]
         curRow, step = 0, 1
 
@@ -77,7 +78,7 @@ class Solution(object):
             elif curRow == numRows-1:
                 step = -1
             curRow += step
-            
+
         return ''.join([''.join(row) for row in rows])
 
 # I want more
