@@ -28,8 +28,8 @@ class Solution(object):
                 continue
             for i in range(c+1, min(c+nums[c]+1,len(nums))):
                 if not checked[i]:
-                  reachable.append(i)
-                  checked[i] = True
+                    reachable.append(i)
+                    checked[i] = True
 
         return a
 
